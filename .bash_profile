@@ -3,10 +3,10 @@ export PATH="$HOME/bin:$PATH";
 export ssh_dbs="ssh -i ~/.ssh/id_rsa -L 1521:dboracleserv.inform.hs-hannover.de:1521 "
 export ssh_dbs+="kt0-ngf-u1@ssh.inform.hs-hannover.de"
 export ssh_hsh="ssh -i ~/.ssh/id_rsa kt0-ngf-u1@ssh.inform.hs-hannover.de"
-export git_private_name='git config --global user.name "schehat"'
-export git_private_email='git config --global user.email "schehat2000@live.de"'
-export git_hsh_email='git config --global user.name "kt0-ngf-u1"'
-export git_hsh_name='git config --global user.email "schehat.abdel-kader@stud.hs-hannover.de"'
+export git_private="git config --global user.name 'schehat'; "
+export git_private+="git config --global user.email 'schehat2000@live.de'"
+export git_hsh="git config --global user.name 'kt0-ngf-u1'; "
+export git_hsh+="git config --global user.email 'schehat.abdel-kader@stud.hs-hannover.de'"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
