@@ -8,6 +8,9 @@ export git_private_email="git config --global user.email 'schehat2000@live.de'"
 export git_hsh_name="git config --global user.name 'kt0-ngf-u1'"
 export git_hsh_email="git config --global user.email 'schehat.abdel-kader@stud.hs-hannover.de'"
 
+alias gcc="gcc -std=c99 -Wall -pedantic-errors"
+alias g++="g++ -std=c++14 -Wall -pedantic-errors"
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
